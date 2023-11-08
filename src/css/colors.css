@@ -1,6 +1,6 @@
-$ui-primary: var(--ui-primary, hsla(240, 100%, 50%, 1)/*hsla(215, 100%, 95%, 1)); /* #E5F0FF */
-$ui-secondary: var(--ui-secondary, hsla(240, 75%, 45%, 1)/*hsla(215, 75%, 95%, 1)); /* #E9F1FC */
-$ui-tertiary: var(--ui-tertiary, hsla(240, 50%, 40%, 1)/*hsla(215, 50%, 90%, 1)); /* #D9E3F2 */
+$ui-primary: var(--ui-primary, hsla(240, 100%, 50%, 1));/*hsla(215, 100%, 95%, 1)); /* #E5F0FF */
+$ui-secondary: var(--ui-secondary, hsla(240, 75%, 45%, 1));/*hsla(215, 75%, 95%, 1)); /* #E9F1FC */
+$ui-tertiary: var(--ui-tertiary, hsla(240, 50%, 40%, 1));/*hsla(215, 50%, 90%, 1)); /* #D9E3F2 */
 
 $ui-modal-overlay: var(--ui-modal-overlay, hsla(194, 100%, 65%, 0.9)); /* 90% transparent version of motion-primary */
 
