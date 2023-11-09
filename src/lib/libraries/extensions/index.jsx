@@ -330,6 +330,15 @@ const menuItems = [
         extDeveloper: 'pinksheep2917'
     },
     {
+        name: 'Stupidity',
+        extensionId: 'https://extensions.penguinmod.com/extensions/ObviousAlexC/PenPlus.js',
+        tags: ['categoryexpansion'],
+        iconURL: 'https://extensions.penguinmod.com/images/ObviousAlexC/PenPlus.svg',
+        description: "Some random utilities i made. There really are some stupid utils in here.",
+        featured: true,
+        extDeveloper: 'LoafOfCatBreadOfLoaf'
+    },
+    {
         name: 'Extended Sound',
         extensionId: 'jgExtendedAudio',
         iconURL: jgExtendedAudioExtensionIcon,
