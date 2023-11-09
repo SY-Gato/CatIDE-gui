@@ -331,7 +331,7 @@ const menuItems = [
     },
     {
         name: 'Stupidity',
-        extensionId: 'https://extensions.penguinmod.com/extensions/ObviousAlexC/PenPlus.js',
+        extensionId: 'https://github.com/SY-Gato/Scratch-Plugins/blob/main/Stupidity/Stupidity.js',
         tags: ['categoryexpansion'],
         iconURL: 'https://extensions.penguinmod.com/images/ObviousAlexC/PenPlus.svg',
         description: "Some random utilities i made. There really are some stupid utils in here.",
