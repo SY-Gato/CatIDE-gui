@@ -336,6 +336,7 @@ const menuItems = [
         iconURL: 'https://extensions.penguinmod.com/images/ObviousAlexC/PenPlus.svg',
         description: "Some random utilities i made. There really are some stupid utils in here.",
         featured: true,
+        sandboxed: false,
         extDeveloper: 'LoafOfCatBreadOfLoaf'
     },
     {
