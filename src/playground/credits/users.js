@@ -120,24 +120,47 @@ const addonDevelopers = [
 ].map(fromHardcoded);
 
 const pmDevelopers = [
-    'asmarly',
-    // 'CST1229', // gray area, idrk if they are still a member
+    'enderhacker',
     'FreshPenguin112',
     'Ianyourgod',
-    'jdev082',
+    'JoshAtticus',
     'JeremyGamer13',
     'jwklong',
-    'MaterArc',
+    'tnix100',
     'RedMan13',
     'showierdata9978'
 ].map(fromHardcodedGithub);
 
+const pmPullRequestDevelopers = [
+    'NexusKitten',
+    'LilyMakesThings',
+    'MikeDev101',
+    'kokofixcomputers',
+    'PPPDUD',
+    'qbjl',
+    'minidogg'
+    // add more people probably
+].map(fromHardcodedGithub);
+
+const pmApiDevelopers = [
+    'JeremyGamer13',
+    'RedMan13',
+    'tnix100',
+    'Ianyourgod',
+    'JoshAtticus',
+    'enderhacker'
+].map(fromHardcodedGithub);
+
 // todo: should translators be only named or...?
 const pmTranslators = [
-    'kolikiscool'
+    'kolikiscool',
+    'PhilTheTrain'
 ].map(fromHardcodedGithub);
 const pmTranslatorsNamed = [
-    'n0name'
+    'n0name',
+    'a_pc',
+    'm_bonel',
+    'premie_r'
 ].map(fromHardcodedNamed);
 
 const logoArtists = Promise.all([
@@ -154,11 +177,19 @@ const extensionDevelopers = [
 ].map(fromHardcodedGithub);
 const pmExtensionDevelopers = [
     'silvxrcat',
-    'nexuskitten',
+    'NexusKitten',
     'G1nX-01',
     'SharkPool-SP',
     'David-Orangemoon',
-    // 'pooiod' // add if ListsPlus gets merged
+    'pooiod',
+    'WAYLIVES',
+    'MrRedstonia',
+    'MikeDev101',
+    'BopShoes',
+    'AlexSchoolOH',
+    'Monochromasity',
+    'LilyMakesThings',
+    'TheShovel'
 ].map(fromHardcodedGithub);
 
 export default {
@@ -167,5 +198,7 @@ export default {
     logoArtists: shuffle(logoArtists),
     extensionDevelopers: shuffle(extensionDevelopers),
     pmExtensionDevelopers: shuffle(pmExtensionDevelopers),
-    pmTranslators: [].concat(shuffle(pmTranslators), shuffle(pmTranslatorsNamed)),
+    pmApiDevelopers: shuffle(pmApiDevelopers),
+    pmTranslators: shuffle([].concat(pmTranslators, pmTranslatorsNamed)),
+    pmPullRequestDevelopers: shuffle(pmPullRequestDevelopers)
 };
