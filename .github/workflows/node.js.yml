@@ -28,7 +28,8 @@ jobs:
         node-version: 16.x
         #node-version: 18.x
     - name: Install dependencies and build site
-      run: npm i -g pnpm && pnpm up && pnpm i --shamefully-hoist && NODE_ENV=production webpack --bail
+      #run: npm i -g pnpm && pnpm up && pnpm i --shamefully-hoist && NODE_ENV=production webpack --bail
+      run: npm i && NODE_ENV=production webpack --bail
     - name: Upload artifact
       uses: actions/upload-pages-artifact@v1
       with:
